@@ -38,12 +38,54 @@
                     >
                         <div class="card card-body" style="width: 500px">
                             Tra poco comparirano 5 numeri e dovrai memorizzarli,
-                            una volta scomparsi i cinque numeri
+                            una volta scomparsi compariranno 5 caselle vuote in
+                            cui dovrai inserire i numeri memorizzati in
+                            precedenza in ordine casuale. <br />Clicca START
+                            quando ti senti pronto.
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <h2>MEMORIZZA I NUMERI</h2>
+                <div>
+                    <p class="h2" id="time">30</p>
+                </div>
+                <div id="game" class="row py-4 justify-content-around">
+                    <input
+                        id="number-1"
+                        class="text-center col-1 py-4 border border-black rounded fw-bold"
+                        disabled
+                    />
+                    <input
+                        id="number-2"
+                        class="text-center col-1 py-4 border border-black rounded fw-bold"
+                        disabled
+                    />
+                    <input
+                        id="number-3"
+                        class="text-center col-1 py-4 border border-black rounded fw-bold"
+                        disabled
+                    />
+                    <input
+                        id="number-4"
+                        class="text-center col-1 py-4 border border-black rounded fw-bold"
+                        disabled
+                    />
+                    <input
+                        id="number-5"
+                        class="text-center col-1 py-4 border border-black rounded fw-bold"
+                        disabled
+                    />
+                </div>
+                <div class="py-4">
+                    <button
+                        id="game-button"
+                        type="button"
+                        class="btn btn-success btn-lg p-4"
+                    >
+                        GIOCA
+                    </button>
+                </div>
+                <div>
+                    <span class="h2" id="result"></span>
                 </div>
             </div>
         </main>
